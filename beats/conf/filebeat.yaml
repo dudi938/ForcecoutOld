@@ -1,7 +1,7 @@
 filebeat.inputs:
     - type: log
       paths:
-        - /log.txt
+        - /c/Users/Dudi/Desktop/Forcecout/log/*
 
 
 output.logstash:
