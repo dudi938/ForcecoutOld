@@ -1,0 +1,10 @@
+filebeat.inputs:
+    - type: log
+      paths:
+        - /log.txt
+
+
+output.logstash:
+    hosts: ["172.17.138.210:5044"]
+
+
